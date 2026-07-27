@@ -1,0 +1,31 @@
+name: ratig_android
+description: "RATIG Reaction Timer Android App (USB Serial)"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  usb_serial: 0.5.2
+  cupertino_icons: ^1.0.2
+  fl_chart: ^0.65.0
+  google_fonts: ^6.1.0
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  excel: ^4.0.0
+  share_plus: ^10.1.4
+  file_picker: ^11.0.2
+  pdf: ^3.10.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
